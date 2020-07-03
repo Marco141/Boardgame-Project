@@ -38,7 +38,7 @@ public class Dice : MonoBehaviour
 
         if (randomDiceSide + 1 == GameControl.diceSideThrown)
         {
-            GameControl.diceSideThrown = -2* (randomDiceSide + 1);
+            GameControl.diceSideThrown = -2 * (randomDiceSide + 1);
         }
         else
         {
@@ -57,4 +57,5 @@ public class Dice : MonoBehaviour
         coroutineAllowed = true;
     }
 }
+
 

@@ -37,7 +37,7 @@ public class FollowThePath : MonoBehaviour
             if (transform.position == waypoints[waypointIndex].transform.position)
             {
                 waypointIndex += 1;
-            }            
+            }
         }
     }
 }
